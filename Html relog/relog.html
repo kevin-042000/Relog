@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relog</title>
+    <link rel="stylesheet" href="../Css relog/relog.css">
+    <link rel="shortcut icon" href="../img/reloj.png" type="image/x-icon">
+</head>
+<body>
+    
+    <div id="contenedor-relog">
+        <div id="fondo">
+           
+            
+
+        </div>
+
+        <div id="hora-digital">
+            <div class="cuerpo-digital">
+                <span id="texto-hora-digital">00:00:00</span>
+            </div>
+           
+        </div>
+
+        <div id="manecillas">
+
+            <span  id="h12">12</span>
+            <span id="h11">11</span>
+            <span id="h10">10</span>
+            <span id="h9">9</span>
+            <span id="h8">8</span>
+            <span id="h7">7</span>
+            <span id="h6">6</span>
+            <span id="h5">5</span>
+            <span id="h4">4</span>
+            <span id="h3">3</span>
+            <span id="h2">2</span>
+            <span id="h1">1</span>
+
+
+              
+            <div id="horas">
+                <svg width="300" height="300">
+                    <line
+                    x1="150" y1="80"
+                    x2="150" y2="150"
+                    stroke="black"
+                    stroke-width="6"
+                    stroke-linecap="round"/>
+                </svg>
+            </div>  
+
+                <div id="minutos">
+                    <svg width="300" height="300">
+                        <line
+                        x1="150" y1="50"
+                        x2="150" y2="150"
+                        stroke="red"
+                        stroke-width="4"
+                        stroke-linecap="round"/>
+                    </svg>
+                </div>  
+
+            <div id="segundos">
+                <svg width="300" height="300">
+                    <line
+                    x1="150" y1="40"
+                    x2="150" y2="150"
+                    stroke="orange"
+                    stroke-width="2"
+                    stroke-linecap="round"/>
+                </svg>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+    <script src="../Js relog/relog.js"></script>
+</body>
+</html>

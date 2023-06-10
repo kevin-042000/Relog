@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(rgb(231, 62, 62), rgb(95, 159, 223));
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#contenedor-relog, #fondo, #hora-digital{
+  width: 300px;
+  height: 300px;
+
+}
+ 
+#fondo{
+      background: linear-gradient(white, lightgray);
+      border-radius: 50%;
+      border: 0.5rem solid black;
+      box-shadow: 0 0 30px black;
+  }
+
+  #contenedor-relog, #manecillas{
+    position: relative;
+  }
+
+  #contenedor-relog {
+   left: 3rem;
+  }
+
+  #fondo, #horas, #minutos, #segundos, #hora-digital{
+    position: absolute;
+  }
+
+  #hora-digital{
+  
+    position: absolute;
+    top: 350px;
+    left: 110px;
+    font-size: 130%;
+    /* opacity: 0.5; */
+    /* visibility: hidden; */
+  }
+
+  .cuerpo-digital{
+    border: 0.2rem solid black;
+    border-radius: 2rem;
+    text-align: center;
+    width: 8rem;
+    color: black;
+    opacity: 0;
+  }
+
+  /* .cuerpo-digital::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    width: 0.5rem;
+    height: 0.7rem;
+    background: red;
+    border-radius: 3px;
+    opacity: 0.9;
+  }
+
+  .cuerpo-digital::after{
+    content: "";
+    position: absolute;
+    top: -10px;
+    width: 0.5rem;
+    height: 0.7rem;
+    background: green;
+    border-radius: 3px;
+    opacity: 0.9;
+  } */
+
+
+
+
+#manecillas span {
+  position: absolute;
+  font-size: 1.5rem;
+  font-weight: 500;
+
+}
+
+#h1 {
+  top: 35px;
+  left: 200px
+}
+
+#h2 {
+  top: 70px;
+  left: 240px;
+}
+
+#h3 {
+  top: 130px;
+  left: 260px;
+}
+
+#h4 {
+  top: 190px;
+  left: 250px;
+}
+
+#h5 {
+  top: 235px;
+  left: 205px;
+}
+
+#h6 {
+  top: 255px;
+  left:  145px;
+}
+
+#h7 {
+  top: 235px;
+  left: 85px;
+}
+
+#h8 {
+  top: 195px;
+  left: 45px;
+}
+
+#h9 {
+  top: 140px;
+  left: 25px;
+}
+
+#h10 {
+  top: 80px;
+  left: 40px;
+}
+
+#h11 {
+  top: 40px;
+  left: 80px;
+}
+
+#h12 {
+  top: 20px;
+  left: 135px;
+}
+
+
+
+@media screen and (max-width: 769px) {
+ 
+  #contenedor-relog {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -4rem;
+  }
+}
+
+
